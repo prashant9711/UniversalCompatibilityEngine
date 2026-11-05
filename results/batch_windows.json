@@ -1,0 +1,38 @@
+[
+    {
+        "id": "whoami",
+        "status": "PASS",
+        "checks": {
+            "exit_code": true,
+            "stdout_contains": true
+        },
+        "exit_code": 0,
+        "stdout": "cewt\\prashantpant\n",
+        "stderr": "",
+        "execution_time": 0.03998440003488213
+    },
+    {
+        "id": "hostname",
+        "status": "PASS",
+        "checks": {
+            "exit_code": true,
+            "stdout_nonempty": true
+        },
+        "exit_code": 0,
+        "stdout": "RY018401794CEWT\n",
+        "stderr": "",
+        "execution_time": 0.029634300037287176
+    },
+    {
+        "id": "where",
+        "status": "PASS",
+        "checks": {
+            "exit_code": true,
+            "stdout_contains": true
+        },
+        "exit_code": 0,
+        "stdout": "C:\\Users\\prashantpant\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\n",
+        "stderr": "",
+        "execution_time": 0.04733089997898787
+    }
+]

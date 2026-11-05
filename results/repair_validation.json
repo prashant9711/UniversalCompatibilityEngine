@@ -1,0 +1,86 @@
+{
+    "training_paths": [
+        ">"
+    ],
+    "mapping": [
+        {
+            "path": ">",
+            "from_error": 2,
+            "to_error": 123
+        }
+    ],
+    "validation": [
+        {
+            "path": ">",
+            "passed": true,
+            "expected": {
+                "success": false,
+                "error_code": 123
+            },
+            "actual": {
+                "success": false,
+                "error_code": 123
+            }
+        },
+        {
+            "path": "<",
+            "passed": false,
+            "expected": {
+                "success": false,
+                "error_code": 123
+            },
+            "actual": {
+                "success": false,
+                "error_code": 2
+            }
+        },
+        {
+            "path": "missing_file_92741.txt",
+            "passed": true,
+            "expected": {
+                "success": false,
+                "error_code": 2
+            },
+            "actual": {
+                "success": false,
+                "error_code": 2
+            }
+        },
+        {
+            "path": "C:\\Windows",
+            "passed": true,
+            "expected": {
+                "success": true,
+                "attributes": 16
+            },
+            "actual": {
+                "success": true,
+                "attributes": 16
+            }
+        },
+        {
+            "path": "C:\\Windows\\System32",
+            "passed": true,
+            "expected": {
+                "success": true,
+                "attributes": 16
+            },
+            "actual": {
+                "success": true,
+                "attributes": 16
+            }
+        },
+        {
+            "path": "invalid<>file.txt",
+            "passed": false,
+            "expected": {
+                "success": false,
+                "error_code": 123
+            },
+            "actual": {
+                "success": false,
+                "error_code": 2
+            }
+        }
+    ]
+}

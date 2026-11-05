@@ -1,0 +1,22 @@
+[
+    {
+        "id": "existing_file_absolute",
+        "source_case": "existing_file",
+        "variant": "absolute_path"
+    },
+    {
+        "id": "existing_file_relative",
+        "source_case": "existing_file",
+        "variant": "relative_path"
+    },
+    {
+        "id": "existing_file_forward_slash",
+        "source_case": "existing_file",
+        "variant": "forward_slash"
+    },
+    {
+        "id": "existing_file_backslash",
+        "source_case": "existing_file",
+        "variant": "backslash"
+    }
+]

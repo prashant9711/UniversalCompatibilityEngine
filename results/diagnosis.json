@@ -1,0 +1,16 @@
+[
+    {
+        "id": "existing_file",
+        "category": "SUCCESS_FAILURE_MISMATCH",
+        "possible_causes": [
+            "Unsupported API behavior",
+            "Filesystem permission differences",
+            "Path normalization differences"
+        ],
+        "repair_candidates": [
+            "Inspect API implementation",
+            "Verify permissions and path handling"
+        ],
+        "verified_root_cause": false
+    }
+]

@@ -1,0 +1,59 @@
+{
+    "engine": "Universal Compatibility Engine",
+    "platform": "Windows",
+    "total_cases": 10,
+    "successful_api_calls": 7,
+    "api_errors": 3,
+    "results": [
+        {
+            "id": "existing_file",
+            "success": true,
+            "attributes": 32
+        },
+        {
+            "id": "empty_file",
+            "success": true,
+            "attributes": 32
+        },
+        {
+            "id": "existing_directory",
+            "success": true,
+            "attributes": 16
+        },
+        {
+            "id": "nested_file",
+            "success": true,
+            "attributes": 32
+        },
+        {
+            "id": "unicode_file",
+            "success": true,
+            "attributes": 32
+        },
+        {
+            "id": "missing_file",
+            "success": false,
+            "error_code": 2
+        },
+        {
+            "id": "missing_directory",
+            "success": false,
+            "error_code": 3
+        },
+        {
+            "id": "relative_directory",
+            "success": true,
+            "attributes": 16
+        },
+        {
+            "id": "parent_directory",
+            "success": true,
+            "attributes": 16
+        },
+        {
+            "id": "invalid_characters",
+            "success": false,
+            "error_code": 123
+        }
+    ]
+}

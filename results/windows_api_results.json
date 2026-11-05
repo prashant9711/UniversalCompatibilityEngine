@@ -1,0 +1,52 @@
+[
+    {
+        "id": "empty_path",
+        "success": false,
+        "error_code": 3
+    },
+    {
+        "id": "nonexistent_file",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "relative_path",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "parent_directory",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "windows_directory",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "system32_directory",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "unicode_path",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "long_filename",
+        "success": false,
+        "error_code": 3
+    },
+    {
+        "id": "invalid_characters",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "trailing_space",
+        "success": false,
+        "error_code": 2
+    }
+]

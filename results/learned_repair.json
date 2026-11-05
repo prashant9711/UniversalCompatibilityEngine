@@ -1,0 +1,83 @@
+{
+    "training_scores": {
+        "contains_angle_bracket": 5,
+        "contains_question_mark": 2,
+        "contains_asterisk": 2,
+        "ends_with_space": 2
+    },
+    "selected_feature": "contains_angle_bracket",
+    "validation": [
+        {
+            "path": "another>invalid.txt",
+            "passed": true,
+            "expected": {
+                "success": false,
+                "error_code": 123
+            },
+            "actual": {
+                "success": false,
+                "error_code": 123
+            }
+        },
+        {
+            "path": "test<file.txt",
+            "passed": true,
+            "expected": {
+                "success": false,
+                "error_code": 123
+            },
+            "actual": {
+                "success": false,
+                "error_code": 123
+            }
+        },
+        {
+            "path": "missing_again.txt",
+            "passed": true,
+            "expected": {
+                "success": false,
+                "error_code": 2
+            },
+            "actual": {
+                "success": false,
+                "error_code": 2
+            }
+        },
+        {
+            "path": "C:\\Windows\\System32",
+            "passed": true,
+            "expected": {
+                "success": true,
+                "attributes": 16
+            },
+            "actual": {
+                "success": true,
+                "attributes": 16
+            }
+        },
+        {
+            "path": "example?.txt",
+            "passed": false,
+            "expected": {
+                "success": false,
+                "error_code": 123
+            },
+            "actual": {
+                "success": false,
+                "error_code": 2
+            }
+        },
+        {
+            "path": "example*.txt",
+            "passed": false,
+            "expected": {
+                "success": false,
+                "error_code": 123
+            },
+            "actual": {
+                "success": false,
+                "error_code": 2
+            }
+        }
+    ]
+}

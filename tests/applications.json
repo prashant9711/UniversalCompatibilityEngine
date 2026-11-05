@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "id": "whoami",
+      "executable": "C:\\Windows\\System32\\whoami.exe",
+      "args": [],
+      "expected_exit_code": 0,
+      "expected_stdout_contains": "\\"
+    },
+    {
+      "id": "hostname",
+      "executable": "C:\\Windows\\System32\\hostname.exe",
+      "args": [],
+      "expected_exit_code": 0,
+      "expected_stdout_nonempty": true
+    },
+    {
+      "id": "where",
+      "executable": "C:\\Windows\\System32\\where.exe",
+      "args": ["python"],
+      "expected_exit_code": 0,
+      "expected_stdout_contains": "python"
+    }
+  ]
+}

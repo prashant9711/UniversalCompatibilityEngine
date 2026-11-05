@@ -1,0 +1,16 @@
+[
+    {
+        "id": "existing_file",
+        "category": "SUCCESS_FAILURE_MISMATCH",
+        "expected": {
+            "id": "existing_file",
+            "success": true,
+            "attributes": 32
+        },
+        "actual": {
+            "id": "existing_file",
+            "success": false,
+            "error_code": 5
+        }
+    }
+]

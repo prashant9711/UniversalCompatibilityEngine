@@ -1,0 +1,33 @@
+{
+    "selected_features": [
+        "contains_angle_bracket",
+        "contains_question_mark",
+        "contains_asterisk"
+    ],
+    "validation": [
+        {
+            "path": "another>invalid.txt",
+            "passed": true
+        },
+        {
+            "path": "test<file.txt",
+            "passed": true
+        },
+        {
+            "path": "new?.txt",
+            "passed": true
+        },
+        {
+            "path": "new*.txt",
+            "passed": true
+        },
+        {
+            "path": "missing_again.txt",
+            "passed": true
+        },
+        {
+            "path": "C:\\Windows\\System32",
+            "passed": true
+        }
+    ]
+}

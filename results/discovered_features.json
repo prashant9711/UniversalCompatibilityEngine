@@ -1,0 +1,10 @@
+{
+    "selected_characters": [
+        "?",
+        ">",
+        "<",
+        "*"
+    ],
+    "training_count": 9,
+    "counterexample_failures": []
+}

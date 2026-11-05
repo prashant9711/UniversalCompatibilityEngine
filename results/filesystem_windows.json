@@ -1,0 +1,62 @@
+[
+    {
+        "id": "empty_path",
+        "success": false,
+        "error_type": "FileNotFoundError",
+        "winerror": 3
+    },
+    {
+        "id": "nonexistent_file",
+        "success": false,
+        "error_type": "FileNotFoundError",
+        "winerror": 2
+    },
+    {
+        "id": "relative_path",
+        "success": true,
+        "is_directory": true,
+        "size": 4096
+    },
+    {
+        "id": "parent_directory",
+        "success": true,
+        "is_directory": true,
+        "size": 20480
+    },
+    {
+        "id": "windows_directory",
+        "success": true,
+        "is_directory": true,
+        "size": 20480
+    },
+    {
+        "id": "system32_directory",
+        "success": true,
+        "is_directory": true,
+        "size": 1310720
+    },
+    {
+        "id": "unicode_path",
+        "success": false,
+        "error_type": "FileNotFoundError",
+        "winerror": 2
+    },
+    {
+        "id": "long_filename",
+        "success": false,
+        "error_type": "FileNotFoundError",
+        "winerror": 3
+    },
+    {
+        "id": "invalid_characters",
+        "success": false,
+        "error_type": "OSError",
+        "winerror": 123
+    },
+    {
+        "id": "trailing_space",
+        "success": false,
+        "error_type": "FileNotFoundError",
+        "winerror": 2
+    }
+]

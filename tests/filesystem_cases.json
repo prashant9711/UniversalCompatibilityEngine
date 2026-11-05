@@ -1,0 +1,42 @@
+[
+    {
+        "id": "empty_path",
+        "path": ""
+    },
+    {
+        "id": "nonexistent_file",
+        "path": "missing_file_92741.txt"
+    },
+    {
+        "id": "relative_path",
+        "path": "."
+    },
+    {
+        "id": "parent_directory",
+        "path": ".."
+    },
+    {
+        "id": "windows_directory",
+        "path": "C:\\Windows"
+    },
+    {
+        "id": "system32_directory",
+        "path": "C:\\Windows\\System32"
+    },
+    {
+        "id": "unicode_path",
+        "path": "测试文件.txt"
+    },
+    {
+        "id": "long_filename",
+        "path": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.txt"
+    },
+    {
+        "id": "invalid_characters",
+        "path": "invalid<>file.txt"
+    },
+    {
+        "id": "trailing_space",
+        "path": "example.txt "
+    }
+]

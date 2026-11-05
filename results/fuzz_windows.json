@@ -1,0 +1,802 @@
+[
+    {
+        "id": "fuzz_0000",
+        "base": "missing.txt",
+        "suffix": ".",
+        "path": "missing.txt.",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0001",
+        "base": "existing.txt",
+        "suffix": "/",
+        "path": "existing.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0002",
+        "base": "empty.txt",
+        "suffix": "..",
+        "path": "empty.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0003",
+        "base": "empty.txt",
+        "suffix": ".",
+        "path": "empty.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0004",
+        "base": "missing.txt",
+        "suffix": "?",
+        "path": "missing.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0005",
+        "base": "existing.txt",
+        "suffix": ":",
+        "path": "existing.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0006",
+        "base": "existing.txt",
+        "suffix": "",
+        "path": "existing.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0007",
+        "base": "existing.txt",
+        "suffix": "..",
+        "path": "existing.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0008",
+        "base": "empty.txt",
+        "suffix": "?",
+        "path": "empty.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0009",
+        "base": "unicode_测试.txt",
+        "suffix": "",
+        "path": "unicode_测试.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0010",
+        "base": "unicode_测试.txt",
+        "suffix": "..",
+        "path": "unicode_测试.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0011",
+        "base": "missing.txt",
+        "suffix": "?",
+        "path": "missing.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0012",
+        "base": "folder/nested.txt",
+        "suffix": "..",
+        "path": "folder/nested.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0013",
+        "base": "folder/nested.txt",
+        "suffix": "/",
+        "path": "folder/nested.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0014",
+        "base": "existing.txt",
+        "suffix": " ",
+        "path": "existing.txt ",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0015",
+        "base": "missing.txt",
+        "suffix": ":",
+        "path": "missing.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0016",
+        "base": "folder",
+        "suffix": "/",
+        "path": "folder/",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0017",
+        "base": "empty.txt",
+        "suffix": "..",
+        "path": "empty.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0018",
+        "base": "folder",
+        "suffix": ".",
+        "path": "folder.",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0019",
+        "base": "existing.txt",
+        "suffix": ":",
+        "path": "existing.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0020",
+        "base": "existing.txt",
+        "suffix": "\\",
+        "path": "existing.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0021",
+        "base": "folder",
+        "suffix": "/",
+        "path": "folder/",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0022",
+        "base": "existing.txt",
+        "suffix": "*",
+        "path": "existing.txt*",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0023",
+        "base": "unicode_测试.txt",
+        "suffix": ".",
+        "path": "unicode_测试.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0024",
+        "base": "folder/nested.txt",
+        "suffix": ".",
+        "path": "folder/nested.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0025",
+        "base": "unicode_测试.txt",
+        "suffix": "/",
+        "path": "unicode_测试.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0026",
+        "base": "missing.txt",
+        "suffix": "\\",
+        "path": "missing.txt\\",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0027",
+        "base": "unicode_测试.txt",
+        "suffix": "..",
+        "path": "unicode_测试.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0028",
+        "base": "missing.txt",
+        "suffix": ".",
+        "path": "missing.txt.",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0029",
+        "base": "existing.txt",
+        "suffix": "..",
+        "path": "existing.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0030",
+        "base": "folder",
+        "suffix": ".",
+        "path": "folder.",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0031",
+        "base": "empty.txt",
+        "suffix": ".",
+        "path": "empty.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0032",
+        "base": "folder/nested.txt",
+        "suffix": "/",
+        "path": "folder/nested.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0033",
+        "base": "folder/nested.txt",
+        "suffix": "\\",
+        "path": "folder/nested.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0034",
+        "base": "empty.txt",
+        "suffix": "\\",
+        "path": "empty.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0035",
+        "base": "folder",
+        "suffix": "..",
+        "path": "folder..",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0036",
+        "base": "missing.txt",
+        "suffix": "/",
+        "path": "missing.txt/",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0037",
+        "base": "missing.txt",
+        "suffix": ".",
+        "path": "missing.txt.",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0038",
+        "base": "unicode_测试.txt",
+        "suffix": " ",
+        "path": "unicode_测试.txt ",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0039",
+        "base": "unicode_测试.txt",
+        "suffix": "..",
+        "path": "unicode_测试.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0040",
+        "base": "empty.txt",
+        "suffix": "*",
+        "path": "empty.txt*",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0041",
+        "base": "folder/nested.txt",
+        "suffix": "/",
+        "path": "folder/nested.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0042",
+        "base": "missing.txt",
+        "suffix": "?",
+        "path": "missing.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0043",
+        "base": "empty.txt",
+        "suffix": "\\",
+        "path": "empty.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0044",
+        "base": "existing.txt",
+        "suffix": "..",
+        "path": "existing.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0045",
+        "base": "existing.txt",
+        "suffix": "\\",
+        "path": "existing.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0046",
+        "base": "folder/nested.txt",
+        "suffix": "/",
+        "path": "folder/nested.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0047",
+        "base": "existing.txt",
+        "suffix": "..",
+        "path": "existing.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0048",
+        "base": "unicode_测试.txt",
+        "suffix": "\\",
+        "path": "unicode_测试.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0049",
+        "base": "empty.txt",
+        "suffix": "*",
+        "path": "empty.txt*",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0050",
+        "base": "folder/nested.txt",
+        "suffix": "*",
+        "path": "folder/nested.txt*",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0051",
+        "base": "empty.txt",
+        "suffix": "/",
+        "path": "empty.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0052",
+        "base": "empty.txt",
+        "suffix": "..",
+        "path": "empty.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0053",
+        "base": "missing.txt",
+        "suffix": "?",
+        "path": "missing.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0054",
+        "base": "unicode_测试.txt",
+        "suffix": "/",
+        "path": "unicode_测试.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0055",
+        "base": "missing.txt",
+        "suffix": ":",
+        "path": "missing.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0056",
+        "base": "unicode_测试.txt",
+        "suffix": ":",
+        "path": "unicode_测试.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0057",
+        "base": "folder",
+        "suffix": "..",
+        "path": "folder..",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0058",
+        "base": "empty.txt",
+        "suffix": "?",
+        "path": "empty.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0059",
+        "base": "folder/nested.txt",
+        "suffix": ".",
+        "path": "folder/nested.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0060",
+        "base": "existing.txt",
+        "suffix": ".",
+        "path": "existing.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0061",
+        "base": "empty.txt",
+        "suffix": " ",
+        "path": "empty.txt ",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0062",
+        "base": "missing.txt",
+        "suffix": ":",
+        "path": "missing.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0063",
+        "base": "unicode_测试.txt",
+        "suffix": ".",
+        "path": "unicode_测试.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0064",
+        "base": "folder/nested.txt",
+        "suffix": ":",
+        "path": "folder/nested.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0065",
+        "base": "unicode_测试.txt",
+        "suffix": "*",
+        "path": "unicode_测试.txt*",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0066",
+        "base": "unicode_测试.txt",
+        "suffix": "/",
+        "path": "unicode_测试.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0067",
+        "base": "unicode_测试.txt",
+        "suffix": "",
+        "path": "unicode_测试.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0068",
+        "base": "missing.txt",
+        "suffix": ".",
+        "path": "missing.txt.",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0069",
+        "base": "missing.txt",
+        "suffix": "?",
+        "path": "missing.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0070",
+        "base": "folder",
+        "suffix": "\\",
+        "path": "folder\\",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0071",
+        "base": "existing.txt",
+        "suffix": "/",
+        "path": "existing.txt/",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0072",
+        "base": "folder/nested.txt",
+        "suffix": " ",
+        "path": "folder/nested.txt ",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0073",
+        "base": "folder/nested.txt",
+        "suffix": "",
+        "path": "folder/nested.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0074",
+        "base": "missing.txt",
+        "suffix": "/",
+        "path": "missing.txt/",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0075",
+        "base": "unicode_测试.txt",
+        "suffix": " ",
+        "path": "unicode_测试.txt ",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0076",
+        "base": "unicode_测试.txt",
+        "suffix": ".",
+        "path": "unicode_测试.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0077",
+        "base": "missing.txt",
+        "suffix": "/",
+        "path": "missing.txt/",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0078",
+        "base": "missing.txt",
+        "suffix": "?",
+        "path": "missing.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0079",
+        "base": "unicode_测试.txt",
+        "suffix": "..",
+        "path": "unicode_测试.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0080",
+        "base": "empty.txt",
+        "suffix": "\\",
+        "path": "empty.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0081",
+        "base": "empty.txt",
+        "suffix": "?",
+        "path": "empty.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0082",
+        "base": "unicode_测试.txt",
+        "suffix": "",
+        "path": "unicode_测试.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0083",
+        "base": "unicode_测试.txt",
+        "suffix": "\\",
+        "path": "unicode_测试.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0084",
+        "base": "folder/nested.txt",
+        "suffix": "",
+        "path": "folder/nested.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0085",
+        "base": "existing.txt",
+        "suffix": "\\",
+        "path": "existing.txt\\",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0086",
+        "base": "folder",
+        "suffix": "..",
+        "path": "folder..",
+        "success": true,
+        "attributes": 16
+    },
+    {
+        "id": "fuzz_0087",
+        "base": "existing.txt",
+        "suffix": "..",
+        "path": "existing.txt..",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0088",
+        "base": "unicode_测试.txt",
+        "suffix": ".",
+        "path": "unicode_测试.txt.",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0089",
+        "base": "existing.txt",
+        "suffix": "*",
+        "path": "existing.txt*",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0090",
+        "base": "existing.txt",
+        "suffix": "?",
+        "path": "existing.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0091",
+        "base": "empty.txt",
+        "suffix": " ",
+        "path": "empty.txt ",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0092",
+        "base": "missing.txt",
+        "suffix": "*",
+        "path": "missing.txt*",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0093",
+        "base": "unicode_测试.txt",
+        "suffix": " ",
+        "path": "unicode_测试.txt ",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "fuzz_0094",
+        "base": "folder",
+        "suffix": "?",
+        "path": "folder?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0095",
+        "base": "unicode_测试.txt",
+        "suffix": ":",
+        "path": "unicode_测试.txt:",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0096",
+        "base": "empty.txt",
+        "suffix": "?",
+        "path": "empty.txt?",
+        "success": false,
+        "error_code": 123
+    },
+    {
+        "id": "fuzz_0097",
+        "base": "missing.txt",
+        "suffix": "..",
+        "path": "missing.txt..",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0098",
+        "base": "missing.txt",
+        "suffix": "/",
+        "path": "missing.txt/",
+        "success": false,
+        "error_code": 2
+    },
+    {
+        "id": "fuzz_0099",
+        "base": "folder/nested.txt",
+        "suffix": "\\",
+        "path": "folder/nested.txt\\",
+        "success": true,
+        "attributes": 32
+    }
+]

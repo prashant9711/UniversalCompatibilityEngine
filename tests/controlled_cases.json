@@ -1,0 +1,42 @@
+[
+    {
+        "id": "existing_file",
+        "path": "existing.txt"
+    },
+    {
+        "id": "empty_file",
+        "path": "empty.txt"
+    },
+    {
+        "id": "existing_directory",
+        "path": "folder"
+    },
+    {
+        "id": "nested_file",
+        "path": "folder/nested.txt"
+    },
+    {
+        "id": "unicode_file",
+        "path": "unicode_测试.txt"
+    },
+    {
+        "id": "missing_file",
+        "path": "missing.txt"
+    },
+    {
+        "id": "missing_directory",
+        "path": "missing/file.txt"
+    },
+    {
+        "id": "relative_directory",
+        "path": "."
+    },
+    {
+        "id": "parent_directory",
+        "path": ".."
+    },
+    {
+        "id": "invalid_characters",
+        "path": "invalid<>file.txt"
+    }
+]

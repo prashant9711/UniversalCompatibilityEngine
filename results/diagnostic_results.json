@@ -1,0 +1,34 @@
+[
+    {
+        "id": "existing_file_absolute",
+        "source_case": "existing_file",
+        "variant": "absolute_path",
+        "path": "C:\\Users\\prashantpant\\UniversalCompatabilityEngine\\fixtures\\existing.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "existing_file_relative",
+        "source_case": "existing_file",
+        "variant": "relative_path",
+        "path": "fixtures\\existing.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "existing_file_forward_slash",
+        "source_case": "existing_file",
+        "variant": "forward_slash",
+        "path": "C:/Users/prashantpant/UniversalCompatabilityEngine/fixtures/existing.txt",
+        "success": true,
+        "attributes": 32
+    },
+    {
+        "id": "existing_file_backslash",
+        "source_case": "existing_file",
+        "variant": "backslash",
+        "path": "C:\\Users\\prashantpant\\UniversalCompatabilityEngine\\fixtures\\existing.txt",
+        "success": true,
+        "attributes": 32
+    }
+]
