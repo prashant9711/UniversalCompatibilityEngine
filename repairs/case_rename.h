@@ -8,4 +8,6 @@ BOOL UCE_MoveFileW(
     LPCWSTR new_path
 );
 
+unsigned long UCE_GetMoveFileCallCount(void);
+
 #endif
