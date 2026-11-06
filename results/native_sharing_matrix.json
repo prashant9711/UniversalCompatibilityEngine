@@ -1,0 +1,306 @@
+{
+    "read_none__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_none__read_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_none__read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_none__read_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_none__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_none__write_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_none__write_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_none__write_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read__read_read": {
+        "first_success": true,
+        "second_success": true
+    },
+    "read_read__read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read__read_read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "read_read__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read__write_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read__write_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read__write_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_write__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_write__read_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_write__read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_write__read_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_write__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_write__write_read": {
+        "first_success": true,
+        "second_success": true
+    },
+    "read_write__write_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_write__write_read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "read_read_write__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read_write__read_read": {
+        "first_success": true,
+        "second_success": true
+    },
+    "read_read_write__read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read_write__read_read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "read_read_write__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read_write__write_read": {
+        "first_success": true,
+        "second_success": true
+    },
+    "read_read_write__write_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "read_read_write__write_read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_none__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_none__read_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_none__read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_none__read_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_none__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_none__write_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_none__write_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_none__write_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read__read_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read__read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_read__read_read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_read__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read__write_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read__write_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read__write_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_write__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_write__read_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_write__read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_write__read_read_write": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_write__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_write__write_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_write__write_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_write__write_read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_read_write__read_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read_write__read_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read_write__read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_read_write__read_read_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_read_write__write_none": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read_write__write_read": {
+        "first_success": true,
+        "second_success": false,
+        "second_error": 32
+    },
+    "write_read_write__write_write": {
+        "first_success": true,
+        "second_success": true
+    },
+    "write_read_write__write_read_write": {
+        "first_success": true,
+        "second_success": true
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "fixtures\\existing.txt": {
+        "success": true,
+        "attributes": 32
+    },
+    "fixtures\\EXISTING.TXT": {
+        "success": true,
+        "attributes": 32
+    },
+    "FIXTURES\\existing.txt": {
+        "success": true,
+        "attributes": 32
+    },
+    "Fixtures\\Existing.Txt": {
+        "success": true,
+        "attributes": 32
+    },
+    "fixtures\\folder\\nested.txt": {
+        "success": true,
+        "attributes": 32
+    },
+    "fixtures\\FOLDER\\NESTED.TXT": {
+        "success": true,
+        "attributes": 32
+    },
+    "fixtures\\unicode_测试.txt": {
+        "success": true,
+        "attributes": 32
+    },
+    "fixtures\\UNICODE_测试.TXT": {
+        "success": true,
+        "attributes": 32
+    },
+    "fixtures\\missing.txt": {
+        "success": false,
+        "error_code": 2
+    }
+}

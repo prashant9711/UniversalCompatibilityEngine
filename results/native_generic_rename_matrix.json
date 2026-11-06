@@ -1,0 +1,32 @@
+[
+  {
+    "original": "Report.TXT",
+    "target": "report.txt",
+    "actual": "report.txt",
+    "passed": true
+  },
+  {
+    "original": "DATA.json",
+    "target": "data.JSON",
+    "actual": "data.JSON",
+    "passed": true
+  },
+  {
+    "original": "HelloWorld.txt",
+    "target": "helloworld.txt",
+    "actual": "helloworld.txt",
+    "passed": true
+  },
+  {
+    "original": "UPPERCASE.TXT",
+    "target": "uppercase.txt",
+    "actual": "uppercase.txt",
+    "passed": true
+  },
+  {
+    "original": "mixedCase.log",
+    "target": "MIXEDCASE.LOG",
+    "actual": "MIXEDCASE.LOG",
+    "passed": true
+  }
+]

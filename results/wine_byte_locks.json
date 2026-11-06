@@ -1,0 +1,11 @@
+{
+    "overlapping": {
+        "open_success": true,
+        "lock_success": false,
+        "error": 33
+    },
+    "non_overlapping": {
+        "open_success": true,
+        "lock_success": true
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "GetFileAttributesW": {
+        "fixtures\\existing.txt": {
+            "success": true,
+            "attributes": 32
+        },
+        "fixtures\\EXISTING.TXT": {
+            "success": true,
+            "attributes": 32
+        },
+        "fixtures\\folder\\nested.txt": {
+            "success": true,
+            "attributes": 32
+        },
+        "fixtures\\missing.txt": {
+            "success": false,
+            "error_code": 2
+        },
+        "invalid<>file.txt": {
+            "success": false,
+            "error_code": 123
+        }
+    },
+    "CreateFileW": {
+        "fixtures\\existing.txt": {
+            "success": true
+        },
+        "fixtures\\empty.txt": {
+            "success": true
+        },
+        "fixtures\\folder\\nested.txt": {
+            "success": true
+        },
+        "fixtures\\missing.txt": {
+            "success": false,
+            "error_code": 2
+        },
+        "invalid<>file.txt": {
+            "success": false,
+            "error_code": 123
+        }
+    },
+    "FileSharing": {
+        "fixtures\\existing.txt": {
+            "first_success": true,
+            "second_success": false,
+            "second_error": 32
+        },
+        "fixtures\\empty.txt": {
+            "first_success": true,
+            "second_success": false,
+            "second_error": 32
+        },
+        "fixtures\\folder\\nested.txt": {
+            "first_success": true,
+            "second_success": false,
+            "second_error": 32
+        },
+        "fixtures\\missing.txt": {
+            "first_success": false,
+            "first_error": 2
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "original": {
+        "rename": {
+            "create_success": true,
+            "rename_success": true,
+            "rename_error": 0,
+            "original_exists": true,
+            "renamed_exists": true
+        },
+        "query": {
+            "success": true,
+            "actual_name": "testfile.txt"
+        }
+    },
+    "repaired": {
+        "rename_success": true,
+        "rename_error": 0,
+        "query_success": true,
+        "actual_name": "testfile.txt"
+    }
+}
