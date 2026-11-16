@@ -11,12 +11,12 @@ PROBE = ROOT / "probes/test_replace_casing.exe"
 
 
 class TestWineReplacementCasing(unittest.TestCase):
-    def test_replacement_preserves_data_without_duplicates(self):
+    def run_replacement(self, mode, expected_name):
         with tempfile.TemporaryDirectory() as directory:
-            windows_path = "Z:" + directory.replace("/", "\\")
+            windows_path = "Z:" + directory.replace("/", chr(92))
 
             result = subprocess.run(
-                [WINE, str(PROBE), windows_path],
+                [WINE, str(PROBE), windows_path, mode],
                 capture_output=True,
                 text=True,
                 timeout=60,
@@ -27,16 +27,19 @@ class TestWineReplacementCasing(unittest.TestCase):
 
             data = json.loads(result.stdout.strip().splitlines()[-1])
             self.assertTrue(data["rename_success"], data)
+            self.assertEqual(data["error"], 0)
+            self.assertEqual(data["actual_name"], expected_name)
 
             files = list(Path(directory).iterdir())
             self.assertEqual(len(files), 1, files)
+            self.assertEqual(files[0].name, expected_name)
             self.assertEqual(files[0].read_text(), "SOURCE_DATA_123")
-            self.assertEqual(files[0].name.lower(), "target.txt")
-            self.assertEqual(
-                data["actual_name"],
-                files[0].name,
-                "Wine's reported filename differs from the actual filename"
-            )
+
+    def test_different_casing(self):
+        self.run_replacement("different", "TARGET.txt")
+
+    def test_matching_casing(self):
+        self.run_replacement("matching", "target.txt")
 
 
 if __name__ == "__main__":
