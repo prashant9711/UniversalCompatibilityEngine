@@ -1,0 +1,27 @@
+{
+  "api": "MoveFileExW",
+  "flags": "MOVEFILE_REPLACE_EXISTING",
+  "scenarios": [
+    {
+      "case": "ascii",
+      "requested": "target.txt",
+      "windows_actual": "target.txt",
+      "wine_actual": "TARGET.txt",
+      "match": false
+    },
+    {
+      "case": "accented",
+      "requested": "café.txt",
+      "windows_actual": "café.txt",
+      "wine_actual": "CAFÉ.txt",
+      "match": false
+    },
+    {
+      "case": "greek",
+      "requested": "δοκιμη.txt",
+      "windows_actual": "δοκιμη.txt",
+      "wine_actual": "ΔΟΚΙΜΗ.txt",
+      "match": false
+    }
+  ]
+}
