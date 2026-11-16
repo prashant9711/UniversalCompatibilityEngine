@@ -4,6 +4,8 @@ import platform
 import subprocess
 from pathlib import Path
 
+WINE_BINARY = os.environ.get("UCE_WINE_BINARY", "wine")
+
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS = ROOT / "results"
 
@@ -46,7 +48,7 @@ def run_probe(executable, path, is_windows):
     command = (
         [str(exe), path]
         if is_windows
-        else ["wine", str(exe), path]
+        else [WINE_BINARY, str(exe), path]
     )
 
     result = subprocess.run(

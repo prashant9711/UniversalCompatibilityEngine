@@ -5,6 +5,8 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+WINE_BINARY = os.environ.get("UCE_WINE_BINARY", "wine")
+
 ROOT = Path(__file__).resolve().parent.parent
 IS_WINDOWS = platform.system() == "Windows"
 
@@ -31,7 +33,7 @@ def main():
             command = (
                 [exe, windows_dir, original, target]
                 if IS_WINDOWS
-                else ["wine", exe, windows_dir, original, target]
+                else [WINE_BINARY, exe, windows_dir, original, target]
             )
 
             env = os.environ.copy()

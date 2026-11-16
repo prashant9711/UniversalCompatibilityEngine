@@ -5,6 +5,8 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+WINE_BINARY = os.environ.get("UCE_WINE_BINARY", "wine")
+
 ROOT = Path(__file__).resolve().parent.parent
 IS_WINDOWS = platform.system() == "Windows"
 ENVIRONMENT = "native" if IS_WINDOWS else "wine"
@@ -16,7 +18,7 @@ if not IS_WINDOWS:
 
 def run_probe(executable, directory):
     exe = str(ROOT / "probes" / executable)
-    command = [exe, directory] if IS_WINDOWS else ["wine", exe, directory]
+    command = [exe, directory] if IS_WINDOWS else [WINE_BINARY, exe, directory]
 
     process = subprocess.run(
         command,

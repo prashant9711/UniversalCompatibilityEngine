@@ -16,7 +16,7 @@ if not IS_WINDOWS:
 
 def run_probe(executable, path):
     exe = str(ROOT / "probes" / executable)
-    command = [exe, path] if IS_WINDOWS else ["wine", exe, path]
+    command = [exe, path] if IS_WINDOWS else [os.environ.get("UCE_WINE_BINARY", "wine"), exe, path]
 
     result = subprocess.run(
         command,
